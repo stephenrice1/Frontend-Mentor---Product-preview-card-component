@@ -1,0 +1,23 @@
+:root {
+    --main-bg-color: hsl(30, 38%, 92%);
+    --paragraph-color: hsl(228, 12%, 48%);
+    --perfume-color: hsl(212, 21%, 14%);
+    --components-color: hsl(158, 36%, 37%);
+    --hover-components-color: hsl(157.1, 36%, 18%);
+    --card-bg-color: hsl(0, 0%, 100%);
+    --external-link-color: hsl(228, 45%, 44%);
+
+  }
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}  
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-bg-color);
+}
+
